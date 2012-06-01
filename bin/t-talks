@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+t_talks_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(t_talks_dir) unless $LOAD_PATH.include?(t_talks_dir)
+require 't-talks'
+require 't-talks/runner'

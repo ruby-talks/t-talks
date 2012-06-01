@@ -1,0 +1,2 @@
+require 't'
+require 'thor'
